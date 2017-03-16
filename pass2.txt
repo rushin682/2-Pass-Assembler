@@ -1,0 +1,27 @@
+0	  PRGAM2  START  0
+0	  USING  0  15
+4	  LA  5  6(0, 15)
+6	  SR  4  4
+6	  AC  EQU  2
+6	  INDEX  EQU  3
+6	  TOTAL  EQU  4
+6	  DATABASE  EQU  13
+6	  SETUP  EQU  *
+6	  USING  6  6
+10	  L  13  36(0, 6)
+10	  USING  8054  13
+12	  SR  3  3
+16	  LOOP  L  2  36(0, 6)
+18	  AR  4  2
+22	  A  2  36(0, 6)
+26	  ST  2  SAVE(INDEX)
+30	  A  3  40(0, 6)
+34	  C  3  44(0, 6)
+38	  BNE  12
+40	  LR  1  4
+42	  BR  4
+54	  LTORG
+8054	  SAVE  DS  2000F
+8054	  DATAAREA  EQU  *
+8058	  DATA1  DC  F'25  26  27'
+8058	  END

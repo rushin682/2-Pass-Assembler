@@ -1,0 +1,24 @@
+Symbol Table(Pass2):
+ Symbol		Value		Length		R/A
+PRGAM2		0		1		R
+AC		2		1		A
+INDEX		3		1		A
+TOTAL		4		1		A
+DATABASE		13		1		A
+SETUP		6		1		R
+LOOP		12		4		R
+SAVE		54		4		R
+DATAAREA		8054		1		R
+DATA1		8054		4		R
+
+Literal Table(Pass2):
+ Literal		Value		Length		R/A
+DATA1		42		0		R
+5		42		4		R
+4		46		4		R
+8000		50		4		R
+Base Table:
+Base Register		Value
+6		6
+13		8054
+15		0
